@@ -1,0 +1,78 @@
+
+host-suffix, tradingview.com, 美国节点
+
+host-keyword, googleapi, 美国节点
+host-keyword, google, 美国节点
+
+host-keyword, perplexity, 美国节点
+host-keyword, x.com, 美国节点
+host-keyword, twitter.com, 美国节点
+
+
+
+host-keyword, amazon, 美国节点
+
+host-keyword, instagram, 美国节点
+host-keyword, redd, 美国节点
+host-keyword, wiki, 美国节点
+
+host-keyword, library, 美国节点
+host-keyword, notion, 美国节点
+
+
+
+
+
+# > 美国主要 AI 公司分流列表 (2026版)
+# 包含：OpenAI, Anthropic, Google, Microsoft, Meta, xAI, Perplexity 等
+
+# --- [OpenAI] (ChatGPT, Sora, DALL-E) ---
+HOST-SUFFIX, chatgpt.com, AI工具
+HOST-SUFFIX, openai.com, AI工具
+HOST-SUFFIX, oaistatic.com, AI工具
+HOST-SUFFIX, oaiusercontent.com, AI工具
+HOST-SUFFIX, sora.com, AI工具
+
+# --- [Anthropic] (Claude, Claude Code) ---
+HOST-SUFFIX, claude.ai, AI工具
+HOST-SUFFIX, anthropic.com, AI工具
+
+# --- [Google] (Gemini, NotebookLM, AI Studio) ---
+HOST-SUFFIX, gemini.google.com, AI工具
+HOST-SUFFIX, aistudio.google.com, AI工具
+HOST-SUFFIX, notebooklm.google.com, AI工具
+HOST-KEYWORD, google.com/gemini, AI工具
+
+# --- [Microsoft] (Copilot) ---
+HOST-SUFFIX, copilot.microsoft.com, AI工具
+# 注意：若需 Bing 彻底走代理，建议将 bing.com 也加入，但可能影响普通搜索速度
+HOST-KEYWORD, bing.com/chat, AI工具
+
+# --- [Meta] (Meta AI, Llama) ---
+HOST-SUFFIX, meta.ai, AI工具
+HOST-SUFFIX, llama.com, AI工具
+HOST-SUFFIX, ai.meta.com, AI工具
+
+# --- [xAI] (Grok) ---
+HOST-SUFFIX, x.ai, AI工具
+HOST-SUFFIX, grok.com, AI工具
+
+# --- [Perplexity] (AI Search) ---
+HOST-SUFFIX, perplexity.ai, AI工具
+
+# --- [NVIDIA] (AI NIM, Build) ---
+HOST-SUFFIX, build.nvidia.com, AI工具
+HOST-SUFFIX, nvda.ai, AI工具
+
+# --- [生成式 AI / 图片与视频] ---
+HOST-SUFFIX, midjourney.com, AI工具
+HOST-SUFFIX, character.ai, AI工具
+HOST-SUFFIX, firefly.adobe.com, AI工具
+HOST-SUFFIX, suno.com, AI工具
+HOST-SUFFIX, udio.com, AI工具
+HOST-SUFFIX, elevenlabs.io, AI工具
+
+# --- [开发者工具 / 模型托管] ---
+HOST-SUFFIX, huggingface.co, AI工具
+HOST-SUFFIX, scale.com, AI工具
+HOST-SUFFIX, cohere.com, AI工具

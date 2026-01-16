@@ -1,0 +1,14 @@
+## trade 
+
+host-keyword, ibkr, direct
+host-keyword, schwab, direct
+host-keyword, mql, direct
+
+
+host-keyword, okx, direct
+#host-keyword, futu, direct
+
+
+
+host, ad.12306.cn, direct
+host, sdkapp.uve.weibo.com, direct
