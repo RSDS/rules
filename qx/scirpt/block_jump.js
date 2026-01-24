@@ -11,6 +11,9 @@ if (typeof $argument === "undefined" || !$argument) {
     $done({});
 }
 
+// 在最开头加上这一句用于测试
+console.log(`🔍 [检测中] 来源: ${$request.headers['Referer'] || '无'} -> 目标: ${$request.url}`);
+
 // 获取传入的域名，例如 "xxx.com"
 const targetSite = $argument.trim();
 
